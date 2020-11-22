@@ -8,3 +8,8 @@
 * Almost entirely made of re-usable Vue components (styled with Bootstrap 4)
 * Vue routing system to display project details
 
+### Builds:
+
+```
+npm run watch
+```

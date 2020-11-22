@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Muhsin's Portfolio Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+
+  <body>
+
+    <div id="content">
+
+      <div class="card bg-dark space-background">
+            <div><title-card text='Muhsin Wahi-Anwar' id='namebar'/></div>
+            <div><intro-card/></div>
+      </div>
+
+      <div>
+        <project-scroller/>
+      </div>
+
+      <div id="project-area">
+        <router-view mb-2></router-view>
+      </div>
+
+      <div id="gallery-area">
+        <gallery/>
+      </div>
+
+  </div>
+
+      <!---socialmedia/links, made by Dave Gandy @ Flaticon.com--->
+  <div id="links" style="padding:20px;text-align: center;">
+      <a class="btn"target="_blank"  href="https://github.com/giwl-21"><img style="width:20px;height:20px;"src="public/Files/githubIcon.svg"></img></a>
+      <a class="btn"target="_blank"  href="https://www.linkedin.com/in/muhsin-wahi-anwar-a99884188/"><img style="width:20px;height:20px;"src="public/Files/linkedin-letters.svg"></img></a><div>
+        <!--add a email button!! -->
+  </div>
+</div>
+
+    <!--script src="script.js"></script-->
+    <script src="dist/build.js"></script>
+  </body>
+</html>

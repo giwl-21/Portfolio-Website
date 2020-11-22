@@ -1,0 +1,68 @@
+:root{
+    --background-color: linear-gradient(#363340, #433d57);
+}
+
+html{
+    background-color: var(--background-color);
+    overflow-x: hidden;
+}
+
+body {
+    background: var(--background-color);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+.dark-transparent {
+background: rgba(5,0,2, .5);
+border-radius: 5px;
+}
+.space-background {
+background-image: url("public/Files/iris-nebula.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size:cover;
+}
+
+.btn-link {
+color: #f12e50
+}
+.btn-link:hover{
+color: #8e1429
+}
+
+
+.project-card {
+    min-width: 15em;
+    box-shadow: 0px 0px 5px var(--footer-color);
+    transition: transform .2s;
+  }
+  .project-card:hover {
+    box-shadow: 0px 0px 10px var(--footer-color);
+  }
+
+html .flex-nowrap {
+    scrollbar-color: white var(--background-color);
+}
+html::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+html::-webkit-scrollbar-track {
+    background: var(--background-color);
+}
+html::-webkit-scrollbar-thumb {
+    background-color: white;
+}
+
+.flex-nowrap::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+.flex-nowrap::-webkit-scrollbar-track {
+    background: var(--background-color);
+}
+.flex-nowrap::-webkit-scrollbar-thumb {
+    background-color: white;
+}

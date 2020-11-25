@@ -12,3 +12,6 @@ Website to contain my portfolio.  Built in Vue in ECMAScript using Webpack, buil
 ```
 npm run watch
 ```
+
+### Deployment:
+To deploy, just transfer the html files and css files, along with the public and dist folders.

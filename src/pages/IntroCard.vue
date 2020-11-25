@@ -6,13 +6,18 @@
     <div class=" col-sm-8 card text-white dark-transparent">
       <div class= "card-body">
         <div class="card-text">
-          <p>
-          Hello, welcome to my portfolio website!<br/><br/>
-          I am a computer science student at PSU who enjoys programming and learning about science. I am currently seeking an internship in the field of software development, preferably for scientific tools. <br/><br/>
-          I have been learning about code since middle school, since I got hooked on my school calculator's TI-BASIC language that I constructed small games like Tron and a western shootout with. I've cultivated my love for programming through several projects throughout the years.  My largest project so far is a music transposer, which uses machine learning and audio spectroscopy to identify pitches in real-time. I even presented it at regional science fairs in early 2019. I then shifted to working on smaller, but more applied projects like a matrix calculator and a quick image namer for my archivist job. You can explore these more in my projects section.<br/><br/>
-          During this past summer, I interned at OpenVessel as a JavaScript developer.  OpenVessel is a medical start-up seeking to deploy AI into the medical field to assist medical workers to do mildly complex tasks.  This exposed me to the details of web development, as I pulled together many libraries of varying levels of documentation.  In addition, working with the OpenVessel team helped me develop an understanding of professional relationships, responsibility, and teamwork in large scale undertakings.
-          <br/><br/>
-          Apart from my studies and coding, I enjoy reading, drawing, staying active, and playing decade-old video games.  I hope you enjoy browsing my portfolio!
+          <p style="white-space: pre-line;">
+          Hello, welcome to my portfolio!
+
+          I am a computer science student at PSU who enjoys programming and science. My aspiration is to develop tools to push the boundaries of research, education, and medicine.
+
+          I enjoy programming a lot.  When it comes to languages, I like to use JavaScript for web development/applications, Java for Object Oriented Programming, and Python for data structures and algorithms.  You can see some of my projects below.
+
+          My goal at Penn State is to learn the very basics of technology. My enthusiasm for unifying laws has driven me to pursue a Physics minor so I can understand the world around me. Likewise, learning the fundamentals of computers will give me a strong understanding of the complex technologies of today.
+
+          In the professional world, my goal is to come into contact with as many technologies as possible. I find that I am the most creative in those kinds of environments. 
+
+          I also like to make illustrations in my free time.  There's a gallery down below displaying my favorite pieces.  Additionally, I enjoy reading, drinking boba, staying active, and playing decade-old video games.  I hope you enjoy browsing my website!
         </p>
         </div>
       </div>

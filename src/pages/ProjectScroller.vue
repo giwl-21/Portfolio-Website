@@ -15,7 +15,7 @@
         class='col-xs'
         title='OpenVessel'
         summary=
-        "Built a React framework for a Flask.py full stack application.  Also built a 3D viewer for clients to view machine learning results. Implemented through ECMAScript 6."
+        "For my 2020 summer internship, I built a React framework for a Flask.py full stack application.  Also built a 3D viewer for clients to view machine learning results. Implemented through ECMAScript 6."
         link='/OpenVessel'
         image='public/Files/ProjectArea/openvessel.jpeg'
         footer-color='rgba(0, 0, 255, .05)'
@@ -31,12 +31,12 @@
       />
       <ProjectCard
         class='col-xs'
-        title='Music Transposer'
+        title='Matrix Calculator'
         summary=
-        "Application that uses machine learning to attempt to classify notes from audio.  Written in JavaScript, using tensorflowjs.  Presented at science fairs in Spring 2019."
-        link='/MusicTransposer'
-        image='public/Files/ProjectArea/sheet-music.jpg'
-        footer-color='rgba(165,42,42, .05)'
+        "In progess project for matrix calculations, built to be lightweight and more user friendly.  Built using Python."
+        link='/MatrixCalculator'
+        image='public/Files/ProjectArea/math-board.jpg'
+        footer-color='rgba(50, 100, 100, .05)'
       />
       <ProjectCard
         class='col-xs'
@@ -49,12 +49,12 @@
       />
       <ProjectCard
         class='col-xs'
-        title='Matrix Calculator'
+        title='Music Transposer'
         summary=
-        "In progess project for matrix calculations, built to be lightweight and more user friendly.  Built using Python."
-        link='/MatrixCalculator'
-        image='public/Files/ProjectArea/math-board.jpg'
-        footer-color='rgba(50, 100, 100, .05)'
+        "Application that uses machine learning to attempt to classify notes from audio.  Written in JavaScript, using tensorflowjs.  Presented at science fairs in Spring 2019."
+        link='/MusicTransposer'
+        image='public/Files/ProjectArea/sheet-music.jpg'
+        footer-color='rgba(165,42,42, .05)'
       />
       <div class='px-2'></div>
     </div>

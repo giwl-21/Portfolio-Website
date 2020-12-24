@@ -12,8 +12,14 @@
 import {GalleryCard, TitleCard} from "../components.js";
 
 var imageLibrary = [
+  "Curtains In Pen",
+  "Charcoal Landscape",
   "Charcoal Still Life",
   "City Scape Drawing",
+  "Mirror In Pen",
+  "Nose Sketches",
+  "Objects In Pen",
+  "Clothes Sketches",
   "Pencil Cube",
   "Pencil Cylinder",
   "Pencil Sphere",

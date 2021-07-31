@@ -5,5 +5,5 @@
             <p class="text-right"><i>Last updated September 2020</i></p>
           </div>
         </div>
-      </div>
+      
 </template>

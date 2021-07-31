@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>Matrix Calculator <a class="btn"target="_blank"  href="https://github.com/giwl-21/matrix-calculator"><img style="width:20px;height:20px;"src="public/Files/githubIcon.svg"></img></a></h2>
+    <h2>Matrix Calculator <a class="btn" target="_blank"  href="https://github.com/giwl-21/matrix-calculator"><img style="width:20px;height:20px;" src="public/Files/githubIcon.svg"></a></h2>
     <i>November 2019 - January 2020 (On hold)</i>
     <p>
     <br/>
@@ -18,7 +18,7 @@
     TKinter, Jupyter Notebook<br/><br/>
     </div>
     <h3>The Project</h3>
-
+  <p>
     During my first college semester, I learned the basics of linear algebra in a class simply called Matrices.  This course opened up a field of thought that I hadn’t ever considered before.  The two-dimensional analysis of multiple dimensions fascinated me, and I made sure to understand everything the class offered, through intent studying and additional online lectures.  As the class progressed, the teacher allowed us to use matrix calculators for certain simple operations, like row reduction and finding the determinant.  However, I never had a great experience with any of these online tools.  It usually took too many actions to input expressions, and some had long loading times, as they sometimes accessed a server for the calculations.  I realized that if I could make my own matrix calculator, which could possibly be faster and more user accessible.<br/><br/>
 
     I began to research other tools.  Most of the tools online required the user to select width and height dimensions before creating a matrix, requiring extra unnecessary steps.  Others required users to type a large series of brackets and commas, an unwieldy task.  I decided I wanted to build it in Python, since I’d wanted to expand my knowledge of the language, which could come in handy for other prototypes.  I researched Python matrix calculators, and found a text-based one on GitHub with the same slow input features, but quicker calculation.  <br/><br/>

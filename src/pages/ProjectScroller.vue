@@ -11,6 +11,43 @@
         image='public/Files/iris-nebula.jpg'
         footer-color='rgba(255, 0, 255, .05)'
       /> -->
+
+      <ProjectCard
+        class='col-xs'
+        title='Wabtec Corporation'
+        summary=
+        "For the summer of 2021, I interned at Wabtec Corporation.  I mainly developed software tools in Visual C# to streamline locomotive testing."
+        link='/WabtecSummer2021'
+        image='public/Files/ProjectArea/wabtec.jpg'
+        footer-color='rgba(50, 100, 100, .05)'
+      />
+      <ProjectCard
+        class='col-xs'
+        title='5-Stage FPGA CPU'
+        summary=
+        "For my Computer Organization and Design class, I built a simulation of a 5-Stage Piplined FPGA CPU in Verilog."
+        link='/5StagePipelinedCPU'
+        image='public/Files/ProjectArea/cpu.png'
+        footer-color='rgba(0, 255, 0, .05)'
+      />
+      <ProjectCard
+        class='col-xs'
+        title='JBOD Disk Driver'
+        summary=
+        "For my Intro to Systems Programming class, I created a disk driver for a JBOD disk drive with an implemented look-aside cache and networking support."
+        link='/JBODDiskDriver'
+        image='public/Files/ProjectArea/serverstorage.png'
+        footer-color='rgba(165,42,42, .05)'
+      />
+      <ProjectCard
+        class='col-xs'
+        title='5th Sense'
+        summary=
+        "For the Nittany AI 2021 Challenge, my team created an accessible real-time voice transcription app.  I designed and implemented the sound transcription system using Azure Cognitive Services."
+        link='/5thSense'
+        image='public/Files/ProjectArea/5thsenselogo.png'
+        footer-color='rgba(255, 0, 255, .05)'
+      />
       <ProjectCard
         class='col-xs'
         title='OpenVessel'

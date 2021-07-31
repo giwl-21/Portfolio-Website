@@ -9,6 +9,10 @@ import MusicTransposer from './pages/MusicTransposer.vue';
 import PageRenamer from './pages/PageRenamer.vue';
 import TextToBeat from './pages/TextToBeat.vue';
 import OpenVessel from './pages/OpenVessel.vue';
+import FifthSense from './pages/5thSense.vue';
+import FiveStagePipelinedCPU from './pages/5StagePipelinedCPU.vue';
+import JBODDiskDriver from './pages/JBODDiskDriver.vue';
+import WabtecSummer2021 from './pages/WabtecSummer2021.vue';
 
 // Scroll pages
 import IntroCard from './pages/IntroCard.vue';
@@ -26,5 +30,9 @@ export {
   PageRenamer,
   TextToBeat,
   OpenVessel,
+  FifthSense,
+  FiveStagePipelinedCPU,
+  JBODDiskDriver,
+  WabtecSummer2021,
   Resume
 };

@@ -1,7 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Test from "./pages/Test.vue";
-import {Gallery, IntroCard, ProjectScroller, MatrixCalculator, MusicTransposer,PageRenamer,TextToBeat,OpenVessel,Resume} from './pages.js';
+import {Gallery, IntroCard, ProjectScroller, MatrixCalculator, MusicTransposer,PageRenamer,TextToBeat,OpenVessel, FifthSense, JBODDiskDriver, FiveStagePipelinedCPU, WabtecSummer2021} from './pages.js';
 import {TitleCard, ProjectArea} from './components.js'
 
 global.jQuery = require('jquery');
@@ -17,7 +17,11 @@ const routes = [
      {path:'/MusicTransposer', component: MusicTransposer},
      {path:'/PageRenamer', component: PageRenamer},
      {path:'/TextToBeat', component: TextToBeat},
-     {path:'/OpenVessel', component: OpenVessel}
+     {path:'/OpenVessel', component: OpenVessel},
+     {path:'/5thSense', component: FifthSense},
+     {path:'/JBODDiskDriver', component: JBODDiskDriver},
+     {path:'/5StagePipelinedCPU', component: FiveStagePipelinedCPU},
+     {path:'/WabtecSummer2021', component: WabtecSummer2021},
     ]
   }
 ];
@@ -32,11 +36,6 @@ const app = new Vue({
      "TitleCard": TitleCard,
       "IntroCard": IntroCard,
       "ProjectScroller": ProjectScroller,
-      "MatrixCalculator": MatrixCalculator,
-      "MusicTransposer": MusicTransposer,
-      "PageRenamer": PageRenamer,
-      "TextToBeat": TextToBeat,
-      "OpenVessel": OpenVessel,
       "ProjectArea": ProjectArea,
       "Gallery": Gallery
   },

@@ -1,6 +1,6 @@
 <template>
 
-  <div :id='id' class="card border-secondary text-dark m-4" :style='{minWidth: this.width + "em"}'>
+  <div :id='id' class="card bg-transparent text-dark m-4" :style='{minWidth: this.width + "em"}'>
     <a :href='image' style='color: inherit;'>
       <div class="card-body" style='padding:0px'>
         <img class="img-fluid rounded"
@@ -8,7 +8,7 @@
         :src='thumbnail'
         @load='resize()' >
       </div>
-      <div class="card-footer">
+      <div class="card-footer dark-transparent text-white">
         {{title}}
       </div>
     </a>

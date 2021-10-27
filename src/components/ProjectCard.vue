@@ -1,16 +1,16 @@
 <template>
-  <div class="project-card card m-4">
+  <div class="project-card card text-white bg-transparent m-4">
     <div class="card-header"
           :style="{
             height: '10em',
             backgroundImage: 'url('+ image +')',
             backgroundSize:'cover'}"></div>
 
-    <div class="card-body" style="height: 20em">
+    <div class="card-body  dark-transparent" style="height: 20em">
       <h4 class="card-title">{{title}}</h4>
       <p class="card-text" style="white-space:pre-line;">{{summary}}</p>
     </div>
-    <button class="card-footer btn" :style="{height: '3em', textAlign:'left', backgroundColor: footerColor}"
+    <button class="card-footer text-white btn" :style="{height: '3em', textAlign:'left', backgroundColor: footerColor}"
           v-on:click="footerClick(link)">Read More</button>
   </div>
 </template>
